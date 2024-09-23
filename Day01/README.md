@@ -105,6 +105,11 @@ Port forwarding: docker run --rm -d --name app1 -p 8000:80 nginx:latest
 
 View logs: docker logs app1 -f
 
+ps -ef
+
+ping -c/-n 100 www.example.com
+
+
 # Docker architecture is designed to facilitate the development, deployment, and management of applications within containers. Here’s a detailed breakdown of its components and how they interact:
 
 ### 1. **Docker Components**
